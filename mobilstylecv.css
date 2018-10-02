@@ -6,10 +6,6 @@ body {
     background: radial-gradient( grey, black);
     font-family: Arial, Helvetica, sans-serif;
 }
-@media (min-width: 768px) {
-
-}
-
 .bild {
     height: 5em;
     width: 5.5em;
@@ -109,6 +105,7 @@ a:active {
     text-align: center;
     margin: auto;
     margin-top: 1em;
+    
 }
 .footerContent li {
     list-style-type: none;
@@ -121,4 +118,42 @@ a:active {
 .footerContent img {
     width: 9%;
     padding: 1em;
+}
+@media (min-width: 768px) {
+    .bild {
+        height: 6em;
+        width: 7em;
+    }
+    .namn {
+        height: 5em;
+        font-size: 0.6em;
+    }
+    .navMeny {
+        height: 2.8em;
+    }
+    .navMeny ul {
+        text-align: center;
+    }
+    .navMeny li {
+        margin-right: 6em;
+        font-size: 0.9em;
+    }
+    .navigation {
+        width: 80%;
+        height: 6em;
+    }
+    .sectionText p {
+        font-size: 0.9em;
+    }
+    .sectionText h2{
+        font-size: 1.3em;
+    }
+    .sectionText h3 {
+        font-size: 1em;
+    }
+    
+    .footerContent img {
+        width: 7%;
+        margin: 0 3.7em;
+    }
 }
