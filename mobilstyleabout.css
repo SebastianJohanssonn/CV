@@ -28,7 +28,7 @@ body {
     background-image: url(/header.jpg);
     background-size: 100% 5em;
     border-bottom: 2px solid black;
-    
+    height: 5.5em;
 }
 .namn h1 {
     padding-top: 0.8em;
@@ -106,7 +106,7 @@ a:active {
 }
 .footerContent img {
     width: 9%;
-    padding: 1em;
+    margin: 1em;
 }
 @media (min-width: 768px) {
     .bild {
@@ -114,10 +114,19 @@ a:active {
         width: 7em;
     }
     .namn {
-        height: 7em;
+        height: 5em;
+        font-size: 0.6em;
     }
     .navMeny {
-        height: 3em;
+        height: 2.8em;
+    }
+    .navMeny ul {
+        text-align: center;
+    }
+    .navMeny li {
+        margin-right: 6em;
+        
+        font-size: 0.9em;
     }
     .navigation {
         width: 80%;
@@ -125,7 +134,13 @@ a:active {
     }
     .footerContent img {
         width: 7%;
-        padding: 1em 4em;
+        margin: 1em 4em;
+    }
+    p {
+        font-size: 1.2em;
+    }
+    .intressen {
+        font-size: 1.3em;
     }
 }
 
