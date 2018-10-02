@@ -83,6 +83,7 @@ a:active {
 .welcome {
     padding: 0.5em;
     width: 60%;
+    position: relative;
 }
 .welcome p {
     font-size: 0.7em;
@@ -90,8 +91,8 @@ a:active {
 .welcome img {
     height: 10em;
     position: absolute;
-    right: 3em;
-    top: 23em;
+    left: 95%;
+    top: 30%;
 }
 #socialMedia {
     width: 80%;
@@ -112,4 +113,39 @@ a:active {
 .footerContent img {
     width: 9%;
     padding: 1em;
+}
+@media (min-width: 768px) {
+    .bild {
+        height: 6em;
+        width: 7em;
+    }
+    .namn {
+        height: 5em;
+        font-size: 0.6em;
+    }
+    .navMeny {
+        height: 2.8em;
+    }
+    .navMeny ul {
+        text-align: center;
+    }
+    .navMeny li {
+        margin-right: 6em;
+        font-size: 0.9em;
+    }
+    .navigation {
+        width: 80%;
+        height: 6em;
+    }
+    .welcome p {
+        font-size: 1em;
+    }
+    .welcome img {
+        left: 110%;
+        top: 20%;
+    }
+    .footerContent img {
+        width: 7%;
+        margin: 0 3.7em;
+    }
 }
