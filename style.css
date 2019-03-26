@@ -98,6 +98,9 @@ a:active {
     margin: auto;
     margin-top: 1em;
 }
+.footerContent{
+    margin-bottom: 1em;
+}
 .footerContent li {
     list-style-type: none;
     display: inline;
